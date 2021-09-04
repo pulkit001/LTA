@@ -20,6 +20,7 @@ import { WorkshopsComponent } from './components/content/outreach/workshops/work
 import { ConferencesComponent } from './components/content/outreach/conferences/conferences.component';
 import { TrainingComponent } from './components/content/outreach/training/training.component';
 import { GuestlecComponent } from './components/content/outreach/guestlec/guestlec.component';
+import { OutreachbtnComponent } from './components/content/outreach/outreachbtn/outreachbtn.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { GuestlecComponent } from './components/content/outreach/guestlec/guestl
     WorkshopsComponent,
     ConferencesComponent,
     TrainingComponent,
-    GuestlecComponent
+    GuestlecComponent,
+    OutreachbtnComponent
   ],
   imports: [
     BrowserModule,

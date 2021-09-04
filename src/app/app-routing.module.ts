@@ -5,10 +5,13 @@ import { WorkshopsComponent } from './components/content/outreach/workshops/work
 import { TrainingComponent } from './components/content/outreach/training/training.component';
 import { GuestlecComponent } from './components/content/outreach/guestlec/guestlec.component';
 import { ConferencesComponent } from './components/content/outreach/conferences/conferences.component';
+import { OutreachbtnComponent } from './components/content/outreach/outreachbtn/outreachbtn.component';
 
 const routes: Routes = [
+  {path:"",component:OutreachbtnComponent},
   { path: 'outreach',
     children:[
+      {path:"",component:OutreachbtnComponent},
       {path:"workshops",component:WorkshopsComponent},
       {path:"conferences",component:ConferencesComponent},
       {path:"guest-lectures",component:GuestlecComponent},
