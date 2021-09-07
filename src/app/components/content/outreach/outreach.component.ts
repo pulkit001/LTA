@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./outreach.component.css']
 })
 export class OutreachComponent implements OnInit {
-
-  constructor() { }
-
+  
+  constructor() { 
+  }
+  
   ngOnInit(): void {
   }
+
+
 
 }
